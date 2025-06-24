@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quiz das Linguagens do Amor</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; max-width: 700px; margin: auto; background: #fff4f6; }
+    h1 { text-align: center; color: #c94e50; }
+    label { display: block; margin-top: 5px; }
+    .question { margin-bottom: 20px; }
+    button { padding: 10px 20px; background: #c94e50; color: white; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>💖 Descubra sua Linguagem do Amor 💖</h1>
+  <form id="quizForm">
+    <div class="question">
+      <p>1. Quando você se sente mais amado(a)?</p>
+      <label><input type="radio" name="q1" value="A"> Quando dizem que te amam ou elogiam</label>
+      <label><input type="radio" name="q1" value="B"> Quando passam tempo de qualidade com você</label>
+      <label><input type="radio" name="q1" value="C"> Quando te dão um presente significativo</label>
+      <label><input type="radio" name="q1" value="D"> Quando fazem algo por você</label>
+      <label><input type="radio" name="q1" value="E"> Quando demonstram carinho com toques</label>
+    </div>
+
+    <div class="question">
+      <p>2. Qual atitude te desaponta mais em um relacionamento?</p>
+      <label><input type="radio" name="q2" value="A"> Falta de palavras gentis</label>
+      <label><input type="radio" name="q2" value="B"> Pouco tempo juntos</label>
+      <label><input type="radio" name="q2" value="C"> Presentes esquecidos</label>
+      <label><input type="radio" name="q2" value="D"> Falta de ajuda prática</label>
+      <label><input type="radio" name="q2" value="E"> Falta de contato físico</label>
+    </div>
+
+    <div class="question">
+      <p>3. O que mais te faz sorrir inesperadamente?</p>
+      <label><input type="radio" name="q3" value="A"> Uma mensagem ou elogio</label>
+      <label><input type="radio" name="q3" value="B"> Um convite para fazer algo juntos</label>
+      <label><input type="radio" name="q3" value="C"> Um presentinho simbólico</label>
+      <label><input type="radio" name="q3" value="D"> Alguém resolver algo pra você</label>
+      <label><input type="radio" name="q3" value="E"> Um abraço espontâneo</label>
+    </div>
+
+    <div class="question">
+      <p>4. Como você costuma expressar carinho?</p>
+      <label><input type="radio" name="q4" value="A"> Com palavras afetuosas</label>
+      <label><input type="radio" name="q4" value="B"> Com momentos especiais</label>
+      <label><input type="radio" name="q4" value="C"> Com lembranças e surpresas</label>
+      <label><input type="radio" name="q4" value="D"> Com gestos de ajuda</label>
+      <label><input type="radio" name="q4" value="E"> Com toque físico</label>
+    </div>
+
+    <div class="question">
+      <p>5. Em um aniversário ideal, o que não pode faltar?</p>
+      <label><input type="radio" name="q5" value="A"> Uma carta ou declaração emocionante</label>
+      <label><input type="radio" name="q5" value="B"> Tempo de qualidade com quem ama</label>
+      <label><input type="radio" name="q5" value="C"> Um presente pensado com carinho</label>
+      <label><input type="radio" name="q5" value="D"> Alguém preparando algo especial pra você</label>
+      <label><input type="radio" name="q5" value="E"> Muito afeto físico, como abraços</label>
+    </div>
+
+    <div class="question">
+      <p>6. O que te faz sentir mais valorizado(a)?</p>
+      <label><input type="radio" name="q6" value="A"> Alguém reconhecer seu esforço com palavras</label>
+      <label><input type="radio" name="q6" value="B"> Alguém reservar tempo só pra você</label>
+      <label><input type="radio" name="q6" value="C"> Ganhar algo inesperado</label>
+      <label><input type="radio" name="q6" value="D"> Alguém se dedicar a te ajudar</label>
+      <label><input type="radio" name="q6" value="E"> Carinho físico frequente</label>
+    </div>
+
+    <div class="question">
+      <p>7. Qual dessas frases te aquece o coração?</p>
+      <label><input type="radio" name="q7" value="A"> "Admiro muito você"</label>
+      <label><input type="radio" name="q7" value="B"> "Quero passar o dia com você"</label>
+      <label><input type="radio" name="q7" value="C"> "Comprei isso e lembrei de você"</label>
+      <label><input type="radio" name="q7" value="D"> "Já cuidei daquilo por você"</label>
+      <label><input type="radio" name="q7" value="E"> "Vem cá me dar um abraço"</label>
+    </div>
+
+    <div class="question">
+      <p>8. Em brigas, o que mais te magoa?</p>
+      <label><input type="radio" name="q8" value="A"> Palavras duras ou falta de elogios</label>
+      <label><input type="radio" name="q8" value="B"> Ignorarem você ou ficarem distantes</label>
+      <label><input type="radio" name="q8" value="C"> Serem insensíveis a datas e detalhes</label>
+      <label><input type="radio" name="q8" value="D"> Falta de colaboração ou apoio</label>
+      <label><input type="radio" name="q8" value="E"> Negarem contato ou afeto físico</label>
+    </div>
+
+    <div class="question">
+      <p>9. Qual dessas surpresas te faria sorrir?</p>
+      <label><input type="radio" name="q9" value="A"> Uma carta deixada no travesseiro</label>
+      <label><input type="radio" name="q9" value="B"> Uma viagem surpresa a dois</label>
+      <label><input type="radio" name="q9" value="C"> Uma caixa com pequenas lembranças</label>
+      <label><input type="radio" name="q9" value="D"> Um jantar feito especialmente pra você</label>
+      <label><input type="radio" name="q9" value="E"> Um beijo inesperado</label>
+    </div>
+
+    <div class="question">
+      <p>10. Como alguém conquista seu coração?</p>
+      <label><input type="radio" name="q10" value="A"> Sendo verbalmente gentil e expressivo</label>
+      <label><input type="radio" name="q10" value="B"> Estando presente de corpo e alma</label>
+      <label><input type="radio" name="q10" value="C"> Tendo gestos materiais de carinho</label>
+      <label><input type="radio" name="q10" value="D"> Sendo prestativo com ações</label>
+      <label><input type="radio" name="q10" value="E"> Oferecendo toques carinhosos frequentes</label>
+    </div>
+
+    <button type="submit">💌 Ver Resultado</button>
+  </form>
+
+  <p id="result" style="font-weight: bold; margin-top: 20px;"></p>
+
+  <script>
+    const form = document.getElementById('quizForm');
+    const result = document.getElementById('result');
+
+    form.onsubmit = (e) => {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const counts = {};
+      for (let [q, value] of formData.entries()) {
+        counts[value] = (counts[value] || 0) + 1;
+      }
+      const max = Object.entries(counts).sort((a,b) => b[1]-a[1])[0][0];
+      const map = {
+        A: 'Palavras de Afirmação 💬',
+        B: 'Tempo de Qualidade 🕰️',
+        C: 'Presentes 🎁',
+        D: 'Atos de Serviço 🤝',
+        E: 'Toque Físico 🤗'
+      };
+      result.textContent = 'Sua linguagem do amor é: ' + map[max];
+    };
+  </script>
+</body>
+</html>
